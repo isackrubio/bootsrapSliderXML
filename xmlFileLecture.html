@@ -1,0 +1,30 @@
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: 'GET',
+                url: 'partenrs-source.xml',
+                dataType: 'xml',
+                success: function (xml) {
+                    $(xml).find('ref').each(function (e) {
+                        if (e === 0) {
+                            var active = 'active';
+                        } else { var active = ''; }
+                        var div = $('<div class="item ' + active + '" />');
+                        var ol = $('<ol class="carousel-indicators" />');
+                        $('<li data-target="#myCarousel_" data-slide-to="' + e + '" class="' + active + '" />')
+                        .appendTo(ol)
+                        img = $(this).find('image').text();
+                        alt = $(this).find('alt').text();
+                        name = $(this).find("name").text();
+                        $('<img class="mywidthimage" />')
+                            .attr('src', "" + img + "")
+                            .attr('alt', alt)
+                            .attr('name', name)
+                            .width('228.56px').height('66.89px')
+                            .appendTo(div)
+                        div.appendTo('.carousel-inner');
+                    });
+                }
+            });
+        });
+    </script>

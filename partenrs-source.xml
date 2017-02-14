@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<list>
+  <ref>
+    <image>..\Images\partners\1.jpg</image>
+    <alt>Partner1</alt>
+    <name>Partner 1</name>
+  </ref>
+  <ref>
+    <image>..\Images\partners\2.jpg</image>
+    <alt>Partner2</alt>
+    <name>Partner 2</name>
+  </ref>
+  <ref>
+    <image>..\Images\partners\3.jpg</image>
+    <alt>Partner3</alt>
+    <name>Partner 3</name>
+  </ref>
+   <ref>
+    <image>..\Images\partners\4.jpg</image>
+    <alt>Partner4</alt>
+    <name>Partner 4</name>
+  </ref>
+  <ref>
+    <image>..\Images\partners\5.jpg</image>
+    <alt>Partner5</alt>
+    <name>Partner 5</name>
+  </ref>
+  <ref>
+    <image>..\Images\partners\6.png</image>
+    <alt>Partner6</alt>
+    <name>Partner 6</name>
+  </ref>
+    
+</list>
